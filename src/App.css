@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+/* Added by sujit sujit dhotre on 14/12/2023 */
+body{
+  /* background: rgb(255,0,35);
+background: linear-gradient(90deg, rgba(255,0,35,1) 0%, rgba(179,0,255,1) 100%); */
+background-color: white;
+}
+.container{
+  background-color: aliceblue;
+  border-radius: 1em;
+  border: 0.1em solid;
+  margin-top: 1em;
+}
+.outer{
+  background: rgb(255,0,35);
+  background: linear-gradient(90deg, rgba(255,0,35,1) 0%, rgba(179,0,255,1) 100%);
+}
+.navbar{
+  background-color: white;
+  color: azure;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 6px 10px -1px black;
+
+}
+ .nav-item{
+  color: azure;
+}
+.btn_div{
+  display: inline-flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 1em;
+  width: 100%;
+
+}
+.btn_div button{
+  margin: 0.5em;
+}
+.btn-warning{
+  border: 0.1em solid black;
+}
+.btn-warning:hover{
+  background-color: #f1b500;
+  color: black;
+  border: 0.1em solid #f1b500;
+  font-weight: bold;
+  box-shadow: 0px -5px 14px 1px #fdda6e; 
+
+  }
+/* CSS for footer  */
+.footer{
+  background-color: rgb(37, 35, 30);
+  color:white;
+  /* top: 0;
+  box-shadow: 0px -5px 14px 1px black; */
+  text-align: center;
+  border-radius: 0px !important;
+  padding: 0.5em;
+  margin-top: 0.2em;
+  /* position: sticky;
+  bottom: 0; */
+}
+.footer h4{
+  text-shadow: wheat;
+}
+/* Css for Profile in About page  */
+#profile
+{
+  border-radius: 50px  ;
+  border: 2px solid black;
+  height: 100%;
+  width: 100%;
+}
